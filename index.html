@@ -1,0 +1,290 @@
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Email 1</title>
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                background-color: #cccccc;
+            }
+            table {
+                border-spacing: 0;
+            }
+            td {
+                padding: 0;
+            }
+            img {
+                border: 0;
+            }
+            .wrapper {
+                width: 100%;
+                table-layout: fixed;
+                background-color: #cccccc;
+                padding-bottom: 60px;
+            }
+            .main {
+                background-color: rgb(248, 248, 248);
+                margin: 0 auto;
+                width: 100%;
+                max-width: 600px;
+                border-spacing: 0;
+                font-family: sans-serif;
+                color: #171a1b;
+            }
+            .rating-label {
+                  display: inline-block;
+                  width: 26px;
+                  text-align: center;
+  }
+  button {
+    background-color: rgb(106, 106, 216);
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #171a1b;
+    color: aliceblue;
+    width: 110px;
+    height: 40px;
+    border: 3px solid rgb(146, 124, 124);
+    transition: 3s;
+  }
+        </style>
+    </head>
+    <center class="wrapper" width="100%">
+        <table class="main">
+
+            <tr>
+                <td padding="14px 0 4px">
+                    <table width="100%">
+
+                        <table style="background-color: rgb(50, 42, 42);  border-radius: 10px; height: 190px; width: 100%; text-align: center;">
+                            <tr>
+                              <td>
+                                <h2 style="color: white;">eShop Product Reviews Form</h2>
+                                <p style="color: white;">Please tell us about your experience with our website</p>
+                              </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px; font-family: serif;">Date of Visit</h3>
+                                <input type="date" id="date" name="date" style="height: 45px; width: 250px; border: 2px solid black; border-radius: 15px;" placeholder="Select a date...">
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <br>
+
+                          <table>
+                          <tr>
+                            <td>
+                              <h3 style="margin-bottom: 5px;">How will you rate your overall website experience?*</h3>
+                              <input type="range" id="rating" name="rating" min="1" max="10" step="1" style="width: 300px;">
+                              <br>
+                              <label for="rating" class="rating-label">1</label>
+                              <label for="rating" class="rating-label">2</label>
+                              <label for="rating" class="rating-label">3</label>
+                              <label for="rating" class="rating-label">4</label>
+                              <label for="rating" class="rating-label">5</label>
+                              <label for="rating" class="rating-label">6</label>
+                              <label for="rating" class="rating-label">7</label>
+                              <label for="rating" class="rating-label">8</label>
+                              <label for="rating" class="rating-label">9</label>
+                              <label for="rating" class="rating-label">10</label>
+                            </td>
+                          </tr>
+                        </table>
+                        <br>
+                        <br>
+
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Did you find what you were searching for?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Yes</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">No</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">I was just broesing</label><br>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <br>
+                        <br>
+
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Did you find enough product details?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Yes</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">No</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">Didn't notice</label><br>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <br>
+                        <br>
+
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">How safe did you felt while sharing your card details?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Pretty safe and secure</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">I had doubts while sharing my info</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">Not safe at all</label><br>
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <br>
+                          <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">How was the overall checkout experience?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <textarea id="text-area" name="text-area" rows="4" cols="50"></textarea>
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                        <br>
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Did your receive your product on time?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Yes</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">No</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">Didn't notice</label><br>
+                              </td>
+                            </tr>
+                          </table>
+                        <br>
+                        <br>
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Would you buy something from us again?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Yes, i would love to</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">I will think about it</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">No</label><br>
+                              </td>
+                            </tr>
+                          </table>
+                        <br>
+                        <br>
+                        <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Would you buy recommend us to your family?*</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="radio" id="option1" name="options" value="option1">
+                                <label for="option1">Yes, i would love to</label><br>
+                                <input type="radio" id="option2" name="options" value="option2">
+                                <label for="option2">I will think about it</label><br>
+                                <input type="radio" id="option3" name="options" value="option3">
+                                <label for="option3">No</label><br>
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <br>
+                          <table>
+                            <tr>
+                              <td>
+                                <h3 style="margin-bottom: 10px;">Share some photos of the product you've purchased</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <label for="file-upload" class="file-upload-label">
+                                  <i class="fas fa-cloud-upload-alt"></i> 
+                                </label>
+                                <input type="file" id="file-upload" class="file-upload-input">
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <br>
+                          <table style="margin: 0 auto;">
+                            <tr>
+                              <td>
+                                <button type="submit">Submit</button>
+                              </td>
+                            </tr>
+                          </table>
+                          
+                          
+                          
+                          
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+    </html>
